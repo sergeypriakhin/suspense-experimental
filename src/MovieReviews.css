@@ -1,0 +1,20 @@
+.MovieReviews {
+  list-style: none;
+  padding: 0;
+}
+
+.MovieReviews__item {
+  padding: calc(5px + 2vmin);
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  background: #363c48;
+  box-shadow: 0px 0px 4px #6e788c;
+}
+
+.MovieReviews__text {
+  margin-bottom: 1rem;
+}
+.MovieReviews__name {
+  text-align: right;
+  color: rgba(255, 255, 255, 0.52);
+}

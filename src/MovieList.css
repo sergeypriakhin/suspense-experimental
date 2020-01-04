@@ -1,0 +1,35 @@
+.MovieList {
+  list-style: none;
+  padding: 0;
+}
+
+.MovieList__item {
+  padding: calc(5px + 2vmin);
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  background: #363c48;
+  box-shadow: 0px 0px 4px #6e788c;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: box-shadow .3s ease;
+}
+
+.MovieList__item:hover {
+  box-shadow: 0px 0px 4px #97a1b5;
+}
+
+.MovieList__item:hover > .MovieList__next {
+  opacity: 1;
+}
+
+.MovieList__title {
+  flex: auto;
+}
+
+.MovieList__next {
+  font-size: calc(20px + 2vmin);
+  color: #e09f0d;
+  opacity: 0;
+  transition: opacity .3s ease;
+}
